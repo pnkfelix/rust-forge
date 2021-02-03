@@ -113,6 +113,18 @@ Copy the content of the generated agenda into the agenda on HackMD.
 
 Check the compiler calendar to see if there's an outstanding event to announce and add it to the agenda.
 
+If there is a steering meeting on the day after the triage meeting (i.e.
+design/planning meeting, which are held on Fridays), make sure it is part of the
+announcements. Include the appropriate links in the announcement: For
+non-planning meetings, link to the corresponding compiler-team issue. For
+planning meeetings, link to the [proposal
+docs](https://forge.rust-lang.org/compiler/steering-meeting/submit.html) and the
+[current
+proposals](https://github.com/rust-lang/compiler-team/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting-proposal).
+
+If there is no steering meeting, then announce *that* explicitly (i.e. that
+there is no steering meeting).
+
 #### Add performance logs
 
 Add [Triage Logs](https://github.com/rust-lang/rustc-perf/tree/master/triage#triage-logs) to the agenda.
